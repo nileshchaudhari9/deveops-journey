@@ -1,0 +1,53 @@
+# Compiled Python files
+__pycache__/
+*.pyc
+
+# Virtual environment
+myenv/
+venv/
+.venv/
+
+# IDE files and directories
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Log files
+*.log
+
+# Dependency directories
+__pycache__/
+node_modules/
+pip-wheel-metadata/
+dist/
+build/
+*.egg-info/
+
+# Compiled files
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Editor-specific files
+*~
+.idea/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Ignore the Docker image and container files if needed
+# Uncomment these lines if you want to ignore Docker-related files
+# Dockerfile
+# .dockerignore
+
+# Ignore the generated database file (if used)
+# Replace 'your-database-file.db' with your actual database file name
+# *.db
