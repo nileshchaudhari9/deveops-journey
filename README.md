@@ -12,6 +12,8 @@ This is a FastAPI project that demonstrates a simple API.
 - [Dockerization](#dockerization)
   - [Building a Docker Image](#building-a-docker-image)
   - [Running the API using Docker Container](#running-the-api-using-docker-container)
+- [HELM Deployment](#deploying-release-using-helm-chart)
+
 
 ## Prerequisites
 
