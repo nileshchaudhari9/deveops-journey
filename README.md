@@ -57,3 +57,8 @@ pip install -r requirements.txt
  docker run -d -p 8000:8000 [image-tag]
 ```
 
+### Deploying release using HELM Chart
+```shell
+ helm install [your-release-name] ./helm/api-chart/ 
+```
+
