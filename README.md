@@ -13,6 +13,7 @@ This is a FastAPI project that demonstrates a simple API.
   - [Building a Docker Image](#building-a-docker-image)
   - [Running the API using Docker Container](#running-the-api-using-docker-container)
 - [HELM Deployment](#deploying-release-using-helm-chart)
+- [Pytest](#pytest)
 
 
 ## Prerequisites
@@ -64,3 +65,7 @@ pip install -r requirements.txt
  helm install [your-release-name] ./helm/api-chart/ 
 ```
 
+### Pytest
+```shell
+   pytest -v --disable-warnings --cache-clear
+```
